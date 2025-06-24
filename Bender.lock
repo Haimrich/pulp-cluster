@@ -7,8 +7,8 @@ packages:
     dependencies:
     - common_cells
   axi:
-    revision: 853ede23b2a9837951b74dbdc6d18c3eef5bac7d
-    version: 0.39.5
+    revision: f07498d53ecd5518b277c7d213ec3b71ca4df93c
+    version: 0.39.7
     source:
       Git: https://github.com/pulp-platform/axi.git
     dependencies:
@@ -38,7 +38,7 @@ packages:
     dependencies:
     - common_cells
   cluster_icache:
-    revision: dd0e8f3497903a9ca99fc9f349d5a4f688ceb3ae
+    revision: 8114ab36fd446f76cd1e9f139f12a62ab1fb9a6a
     version: null
     source:
       Git: https://github.com/pulp-platform/cluster_icache.git
@@ -71,8 +71,8 @@ packages:
     - common_verification
     - tech_cells_generic
   common_verification:
-    revision: 9c07fa860593b2caabd9b5681740c25fac04b878
-    version: 0.2.3
+    revision: fb1885f48ea46164a10568aeff51884389f67ae3
+    version: 0.2.5
     source:
       Git: https://github.com/pulp-platform/common_verification.git
     dependencies: []
@@ -139,7 +139,7 @@ packages:
     - tech_cells_generic
   hwpe-ctrl:
     revision: 3690a3c648f120546d8de2bc583d5170c36d2f20
-    version: null
+    version: 2.0.0
     source:
       Git: https://github.com/pulp-platform/hwpe-ctrl.git
     dependencies:
@@ -214,7 +214,7 @@ packages:
     dependencies:
     - axi_slice
   redmule:
-    revision: 5dfeb61c060c9c5744b2c9c95e3bb51e3525cff2
+    revision: ae6c14d776bdc620151329d494b3dd7d571283ed
     version: null
     source:
       Git: https://github.com/pulp-platform/redmule.git
@@ -228,10 +228,10 @@ packages:
     - hwpe-stream
     - ibex
     - obi
-    - tech_cells_generic
     - register_interface
+    - tech_cells_generic
   redundancy_cells:
-    revision: 49e714b97a19a7aaddf064ae2757c8f02d1f62dc
+    revision: 6ba6f415a9024decedabaf3f2b45263ff546dabd
     version: null
     source:
       Git: https://github.com/pulp-platform/redundancy_cells.git
@@ -259,15 +259,15 @@ packages:
     - fpnew
     - tech_cells_generic
   scm:
-    revision: 74426dee36f28ae1c02f7635cf844a0156145320
-    version: null
+    revision: 472f99affe44ff7b282b519c047a3cfeb35b16c6
+    version: 1.2.0
     source:
       Git: https://github.com/pulp-platform/scm.git
     dependencies:
     - tech_cells_generic
   softex:
-    revision: 31e7534a3da3244f2f5c08bab430a560beee6ff2
-    version: null
+    revision: 77f219db2d0591afd18c191e5f4c6b112d7aac0c
+    version: 1.1.0
     source:
       Git: https://github.com/belanoa/softex.git
     dependencies:
